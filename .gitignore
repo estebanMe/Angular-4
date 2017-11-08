@@ -4,8 +4,16 @@ node_modules/
 **/*.log
 .gitmodules
 
+### VisualStudioCode ###
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 
 src/**/*.js
 src/**/*.js.map
 src/**/*.map
 
+src/app/modules/multipay-musr-fe/
+src/app/modules/multipay-mpay-fe/
