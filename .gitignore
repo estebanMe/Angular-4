@@ -1,0 +1,11 @@
+node_modules/
+*.iml
+*.log
+**/*.log
+.gitmodules
+
+
+src/**/*.js
+src/**/*.js.map
+src/**/*.map
+
