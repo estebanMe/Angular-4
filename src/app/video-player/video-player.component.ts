@@ -36,7 +36,7 @@ export class VideoPlayerComponent implements OnInit {
    
    reproducirVideo():void{
      this.videoPlayer.nativeElement.play();
-   }
+   } 
 
    detenerVideo():void{
     this.videoPlayer.nativeElement.pause();
