@@ -1,4 +1,4 @@
-<div *ngIf="videoInfo">
+<div *ngIf="videoInfo" class="container">
     <div class="videoContainer">
         <video #videoPlayer (loadedmetadata)="onMetadata($event, videoPlayer)">
                 <source src="http://localhost:81/API/uploads/{{videoInfo.video_src}}">
@@ -14,5 +14,4 @@
         <h1>{{videoInfo.titulo}} {{duracion}}</h1>
         <p>{{videoInfo.descripcion}}</p>
     </div>
-    <p></p>
 </div>
